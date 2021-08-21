@@ -55,7 +55,7 @@ double makeNoiseSquareWave(double dTime)
     
 
 
-int main()
+int main(int argc(), char* argv[])
 {
     std::wcout << "synth programs" << std::endl;
 
