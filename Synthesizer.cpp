@@ -55,7 +55,7 @@ double makeNoiseSquareWave(double dTime)
     
 
 
-int main(int argc(), char* argv[])
+int main(int argc, char *argv[])
 {
     std::wcout << "synth programs" << std::endl;
 
@@ -86,7 +86,7 @@ int main(int argc(), char* argv[])
         {
             sound.SetUserFunction(makeChordSineWave);
         }
-        if (pValueValue == 2)
+        else if (pValueValue == 2)
         {
             sound.SetUserFunction(makeNoiseSineWave);
         }
@@ -102,7 +102,7 @@ int main(int argc(), char* argv[])
         {
             sound.SetUserFunction(makeChordSquareWave);
         }
-        if (pValueValue == 2)
+        else if (pValueValue == 2)
         {
             sound.SetUserFunction(makeNoiseSquareWave);
         }
