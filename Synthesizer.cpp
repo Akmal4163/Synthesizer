@@ -2,9 +2,6 @@
 #include "olcNoiseMaker.h"
 
 
-
-
-
 double angularVelocity(double dHertz)
 {
     return dHertz * 2.0 * 3.14159;
